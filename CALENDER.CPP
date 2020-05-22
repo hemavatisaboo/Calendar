@@ -1,6 +1,8 @@
-#include<iostream>
-#include<stdlib.h>
-#include<stdio.h>
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+using namespace std;
+
 int mainmenu();
 int cal(int yr,int m);
 int press(int ch);
@@ -8,12 +10,14 @@ int yr,m;
 int main()
 {
   mainmenu();
+  //getch();
   getchar();
   return 0;
 }
 int mainmenu()
 {
   int choice;
+  //system("clear");
   system("clear");
   cout<<"\n\n\t\t============================================";
   cout<<"\n\n\t\t		MAIN MENU                    ";
